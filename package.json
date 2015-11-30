@@ -1,0 +1,35 @@
+{
+  "name": "cfn-api-gateway-model",
+  "version": "0.0.1",
+  "description": "AWS CloudFormation Custom Lambda Resource | API Gateway Model",
+  "main": "index.js",
+  "scripts": {
+    "cfn-lambda-deploy": "chmod +x ./node_modules/cfn-lambda/deploy.sh && ./node_modules/cfn-lambda/deploy.sh;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrew-templeton/cfn-api-gateway-model.git"
+  },
+  "keywords": [
+    "aws",
+    "cloudformation",
+    "lambda",
+    "backed",
+    "custom",
+    "resource",
+    "api",
+    "gateway",
+    "model",
+    "rest",
+    "APIG"
+  ],
+  "author": "Andrew Templeton <andrw.tmplton@gmail.com> (https://github.com/andrew-templeton)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrew-templeton/cfn-api-gateway-model/issues"
+  },
+  "homepage": "https://github.com/andrew-templeton/cfn-api-gateway-model#readme",
+  "dependencies": {
+    "cfn-lambda": "0.8.1"
+  }
+}
